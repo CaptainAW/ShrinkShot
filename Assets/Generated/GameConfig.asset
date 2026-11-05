@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22cc2f62c70d7ac47818d33439f2d7be, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ShrinkShot.Config.GameConfig
+  BaseSeed: 1337
+  PathLength: 25
+  FieldHalfWidth: 8
+  FieldBehindStart: 5
+  FieldBehindDoor: 5
+  ObstacleRadius: 0.32
+  ObstacleSpacing: 1.05
+  ObstacleJitter: 0.3
+  ClusterNoiseScale: 0.22
+  ClusterThreshold: 0.42
+  LonelyObstacleChance: 0.1
+  StartClearance: 2.2
+  DoorClearanceHalfWidth: 2
+  DoorClearanceDepth: 1.5
+  CriticalRadius: 0.3
+  StartSizeReserve: 0.2
+  MinStartRadius: 0.75
+  MaxStartRadius: 1.35
+  PassMargin: 0.08
+  StopGap: 1.1
+  MinShotVolume: 0.1
+  ChargeRate: 0.4
+  InfectionScale: 9
+  InfectionVolumePower: 1.2
+  InfectionMaxHop: 2.3
+  InfectionHopReference: 1.05
+  DoorHalfWidth: 1.7
+  SolverShotVolumes:
+  - 0.1
+  - 0.14
+  - 0.2
+  - 0.28
+  - 0.38
+  - 0.5
+  - 0.65
+  - 0.85
+  - 1.1
+  SolverMaxSeedAttempts: 30
