@@ -67,8 +67,7 @@ desktop.ini
 # Unity3D generated file on crash reports
 sysinfo.txt
 
-# Builds
-*.apk
+
 *.aab
 *.unitypackage
 
